@@ -1,0 +1,10 @@
+This Project demonstrates S3 bucket versioning and replication on AWS mangement console.
+
+The aim is to show how S3 bucket versioning can  facilitate management of files, and recall previous versions.
+
+This can protect from unintended overwrites and deletions,ensuring multiple versions of a file object can be in one bucket.
+
+We configure cross-region replication (CRR) to duplicate or reproduce files contained in a bucket into a bucket in another region.
+
+At the end of this project, we test the versioning and replication functionalities; note that replication is only possible if versioning has been enabled in the bucket.
+
